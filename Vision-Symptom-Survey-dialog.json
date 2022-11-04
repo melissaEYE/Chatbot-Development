@@ -1,0 +1,947 @@
+{
+  "intents": [
+    {
+      "intent": "can_not_see_close_up",
+      "examples": [
+        {
+          "text": "Computer vision problems"
+        },
+        {
+          "text": "I am loosing my vision"
+        },
+        {
+          "text": "I can not see when reading"
+        },
+        {
+          "text": "I can not see when working close"
+        },
+        {
+          "text": "Loosing my place"
+        }
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "adios"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "bye-bye"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "hasta la vista"
+        },
+        {
+          "text": "have a nice day"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "see you soon"
+        },
+        {
+          "text": "Yes"
+        }
+      ]
+    },
+    {
+      "intent": "Have_problem",
+      "examples": [
+        {
+          "text": "I don't feel joyful"
+        },
+        {
+          "text": "I have a vision problem"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "poor"
+        }
+      ],
+      "description": "Has a vision problem"
+    },
+    {
+      "intent": "seeing_clearly",
+      "examples": [
+        {
+          "text": "doing great"
+        },
+        {
+          "text": "doing well"
+        },
+        {
+          "text": "Feeling great"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "healthy"
+        },
+        {
+          "text": "I am fine"
+        },
+        {
+          "text": "in good shape"
+        },
+        {
+          "text": "perfect"
+        },
+        {
+          "text": "strong"
+        }
+      ]
+    },
+    {
+      "intent": "vision_problem",
+      "examples": [
+        {
+          "text": "agoraphobic"
+        },
+        {
+          "text": "anxious"
+        },
+        {
+          "text": "can not see"
+        },
+        {
+          "text": "can not sleep"
+        },
+        {
+          "text": "can't focus"
+        },
+        {
+          "text": "can't see"
+        },
+        {
+          "text": "disoriented"
+        },
+        {
+          "text": "eye problems"
+        },
+        {
+          "text": "feeling anxious"
+        },
+        {
+          "text": "getting worse"
+        },
+        {
+          "text": "headaches"
+        },
+        {
+          "text": "I am blind"
+        },
+        {
+          "text": "I am blind as a bat"
+        },
+        {
+          "text": "impaired"
+        },
+        {
+          "text": "I'm still not feeling well"
+        },
+        {
+          "text": "in poor health"
+        },
+        {
+          "text": "I still can not see"
+        },
+        {
+          "text": "lack of coordination"
+        },
+        {
+          "text": "light sensitivity"
+        },
+        {
+          "text": "nausea"
+        },
+        {
+          "text": "not good"
+        },
+        {
+          "text": "not so good"
+        },
+        {
+          "text": "oh, ok, I can't see"
+        },
+        {
+          "text": "oh symptoms, focus is off"
+        },
+        {
+          "text": "panic"
+        },
+        {
+          "text": "restless"
+        },
+        {
+          "text": "run down"
+        },
+        {
+          "text": "tugging"
+        },
+        {
+          "text": "Unable to see"
+        },
+        {
+          "text": "under medication"
+        },
+        {
+          "text": "unhealthy eyes"
+        },
+        {
+          "text": "unsteady on my feet"
+        },
+        {
+          "text": "vision problems"
+        },
+        {
+          "text": "vision troubles"
+        },
+        {
+          "text": "weak vision"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "annual_doc_apt",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "by no means",
+            "I did not",
+            "nah",
+            "never",
+            "nope",
+            "not at all",
+            "not really",
+            "no way",
+            "of course not"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "certainly",
+            "done",
+            "I did",
+            "of course",
+            "of course yes",
+            "yea",
+            "yep",
+            "yup"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "ciss_symptom",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "can not focus",
+          "synonyms": [
+            "can not concentrate",
+            "can't focus",
+            "focus is off",
+            "uncomfortable"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can not remember",
+          "synonyms": [
+            "forgetful",
+            "memory issues"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "can't see",
+          "synonyms": [
+            "blind as a bat",
+            "can't see"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "don't feel joyful",
+          "synonyms": [
+            "poor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "double vision",
+          "synonyms": [
+            "blur",
+            "blurry vision",
+            "words float",
+            "words jump",
+            "words move",
+            "words swim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fatigue",
+          "synonyms": [
+            "exhausted",
+            "sleepy",
+            "tired"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "headache",
+          "synonyms": [
+            "head hurt",
+            "head pain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "headaches",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hurt",
+          "synonyms": [
+            "burn",
+            "irritated eyes",
+            "itch",
+            "itchy eyes",
+            "red eyes",
+            "redness",
+            "sore",
+            "swollen eyelids",
+            "watery eyes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ok",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "slow",
+          "synonyms": [
+            "labored",
+            "strained"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tired",
+          "synonyms": [
+            "sleepy",
+            "snooze"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tugging",
+          "synonyms": [
+            "eyes out of place",
+            "pulling",
+            "uncomfortable"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "mail",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "@hotmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "patterns",
+          "value": "mail",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "@microsoft.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "@yahoo.com",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1658600454829",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "node_6_1658600768267",
+      "next_step": {
+        "behavior": "skip_slot"
+      },
+      "conditions": "#goodbye",
+      "event_name": "generic",
+      "dialog_node": "handler_10_1658603423113"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1658604653199",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1658604653213",
+      "previous_sibling": "handler_6_1658604653213"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "node_10_1658603656908",
+      "next_step": {
+        "behavior": "skip_slot"
+      },
+      "conditions": "#goodbye",
+      "event_name": "generic",
+      "dialog_node": "handler_3_1658608325443"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1658602784611",
+      "context": {
+        "ciss_symptom": "@ciss_symptom"
+      },
+      "conditions": "@ciss_symptom",
+      "event_name": "input",
+      "dialog_node": "handler_5_1658602784634"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If $ciss_symptom is not present then ask:"
+              },
+              {
+                "text": "What vision symptom do you have?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1658602784611",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1658602784634",
+      "previous_sibling": "handler_5_1658602784634"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1658604653199",
+      "event_name": "input",
+      "dialog_node": "handler_6_1658604653213"
+    },
+    {
+      "type": "standard",
+      "title": "What is your name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello $name. I am here to help you with your vision related concerns. What is your vision problem?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {
+        "name": "<?input.text?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1658602143772"
+    },
+    {
+      "type": "frame",
+      "title": "No Vision issues",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am glad to hear that!"
+              },
+              {
+                "text": "That is good news."
+              },
+              {
+                "text": "Glad you are feeling well."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Have you seen your optometrist this year?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No ",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#seeing_clearly",
+      "dialog_node": "node_10_1658603656908",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you $name for using the vision symptoms check program. Have a nice day!"
+              },
+              {
+                "text": "Thank you $name. Vision is am important part of life. Thank you for taking interest in this area of your health. Have a nice day!"
+              },
+              {
+                "text": "Thank you $name. Vision is am important part of life. Have a great day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "source": "https://cdn.vectorstock.com/i/1000x1000/78/93/hand-wave-waving-hi-or-goodbye-flat-icon-vector-31657893.webp",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_5_1658600454829",
+      "previous_sibling": "node_7_1658600614413"
+    },
+    {
+      "type": "frame",
+      "title": "Have a vision problem",
+      "parent": "node_7_1658600614413",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1658600454829"
+      },
+      "conditions": "#Have_problem || @ciss_symptom && true",
+      "dialog_node": "node_6_1658600768267",
+      "previous_sibling": "response_5_1659101848979"
+    },
+    {
+      "type": "standard",
+      "title": "Seeing well",
+      "parent": "node_10_1658603656908",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1658600454829"
+      },
+      "conditions": "@annual_doc_apt",
+      "dialog_node": "node_6_1658604620028",
+      "previous_sibling": "handler_3_1658608325443"
+    },
+    {
+      "type": "standard",
+      "title": "Vision Problems",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are your vision symptoms?"
+              },
+              {
+                "text": "What symptoms do you have that relate to vision or stem from possible vision issues?"
+              },
+              {
+                "text": "Tell me what is going on with your vision."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "time": 10000,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#vision_problem",
+      "dialog_node": "node_7_1658600614413",
+      "previous_sibling": "node_10_1658603656908"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sounds like you need some rest.  Consider going to bed early tonight and see how you feel tomorrow. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1658600768267",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1658600454829"
+      },
+      "conditions": "@ciss_symptom:(tired) || @ciss_symptom:fatigue",
+      "dialog_node": "response_1_1658605802110",
+      "previous_sibling": "response_5_1658601120485"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You might have a convergence problem. Try getting some rest and if the symptoms persist make an appointment with your optometrist."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1658600768267",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1658600454829"
+      },
+      "conditions": "@ciss_symptom:tugging || @ciss_symptom:(can not remember)",
+      "dialog_node": "response_1_1658606051022",
+      "previous_sibling": "response_1_1658605802110"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Take over the counter eye drops to moisturize your eyes. Consider seeing a doctor. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1658600768267",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1658600454829"
+      },
+      "conditions": "@ciss_symptom:hurt || @ciss_symptom:headache ||  @ciss_symptom:(can not focus) || @ciss_symptom:slow",
+      "dialog_node": "response_5_1658601120485",
+      "previous_sibling": "response_8_1658600898377"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Excellent!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1658604620028",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1658600454829"
+      },
+      "conditions": "@annual_doc_apt:(yes)",
+      "dialog_node": "response_5_1658604652716",
+      "previous_sibling": "slot_1_1658604653199"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are your vision symptoms?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1658600614413",
+      "disabled": true,
+      "dialog_node": "response_5_1659101848979"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Make sure to see your optometrist at your earliest convenience."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1658604620028",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1658600454829"
+      },
+      "conditions": "@annual_doc_apt:(no)",
+      "dialog_node": "response_6_1658604911946",
+      "previous_sibling": "response_5_1658604652716"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Consider going to the optometrist as soon as possible"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1658600768267",
+      "conditions": "@ciss_symptom:(double vision)",
+      "dialog_node": "response_8_1658600898377",
+      "previous_sibling": "slot_2_1658602784611"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1658604620028",
+      "dialog_node": "slot_1_1658604653199"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1658600768267",
+      "variable": "$ciss_symptom",
+      "dialog_node": "slot_2_1658602784611",
+      "previous_sibling": "handler_10_1658603423113"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. My name is Mr. Vision. My mission is to determine if you have vision symptoms consistent with a convergence insufficiency. May I have your name or email?"
+              },
+              {
+                "text": "Hello. My name is Mr. Vision. May I have your name or email?"
+              },
+              {
+                "text": "Hello. May I have your name or email? My name is Mr. Vision. I am here to help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "source": "https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/sites/994/2016/02/greenville_what_is_convergence_insufficiency.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "yeah but I am an old cranky man - how are you going to help me"
+    },
+    {
+      "text": "Yes"
+    }
+  ],
+  "system_settings": {
+    "nlp": {
+      "model": "baseline"
+    },
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Vision Symptom Survey",
+  "language": "en",
+  "description": "Mr. Cold bot provides treatment recommendations based on the cold symptoms and flu shot reminders when there are no sym... copy"
+}

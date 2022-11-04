@@ -1,0 +1,11 @@
+ciss_symptom,tired,sleepy,snooze,,,,,,,,,
+ciss_symptom,can not focus,can not concentrate,uncomfortable,,,,,,,,,
+ciss_symptom,headache,head pain,head hurt,,,,,,,,,
+ciss_symptom,fatigue,tired,exhausted,sleepy,,,,,,,,
+ciss_symptom,can not remember,forgetful,memory issues,,,,,,,,,
+ciss_symptom,double vision,words move,words jump,words swim,words float,blur,,,,,,
+ciss_symptom,slow,strained,labored,,,,,,,,,
+ciss_symptom,hurt,sore,burn,itch,redness,watery eyes,irritated eyes,itchy eyes,irritated eyes,red eyes,swollen eyelids,watery eyes
+ciss_symptom,tugging,pulling,eyes out of place,uncomfortable,,,,,,,,
+annual_doc_apt,no,nope,never,not at all,by no means,no way,not really,of course not,nah,I did not,,
+annual_doc_apt,yes,yep,certainly,of course,yea,yup,of course yes,I did,done,,,
